@@ -15,7 +15,7 @@ service: serverless-pdf
 
 provider:
   name: aws
-  runtime: nodejs4.3
+  runtime: nodejs12.0
   stage: stage
   region: us-west-2
   profile: serverless
